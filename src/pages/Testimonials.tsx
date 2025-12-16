@@ -4,7 +4,7 @@ import { testimonials } from "../data/testimonials";
 import { useTranslation } from "react-i18next";
 
 function Stars({ n }: { n: number }) {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const full = Math.max(0, Math.min(5, Math.round(n)));
   return (
     <span aria-label={t("testimonials.starsLabel", { value: full })}>
