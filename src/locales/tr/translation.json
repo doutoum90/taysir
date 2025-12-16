@@ -1,0 +1,365 @@
+{
+  "siteName": "taysir",
+  "header": {
+    "menu": "Menü",
+    "close": "Kapat",
+    "primaryNav": "Ana gezinme",
+    "mobileNav": "Mobil menü"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "testimonials": "Yorumlar",
+    "contact": "İletişim"
+  },
+  "home": {
+    "kicker": "Resmi site",
+    "whyTitle": "Neden Taysir?",
+    "why": {
+      "clarity": "Netlik",
+      "speed": "Hız",
+      "trust": "Güven"
+    },
+    "ctaTitle": "Ne zaman isterseniz başlayabiliriz.",
+    "ctaText": "Bize yazın, hızlıca dönüş yapalım.",
+    "contactBtn": "İletişime geç",
+    "servicesBtn": "Hizmetleri gör",
+    "detailsBtn": "Devamını oku",
+    "whyCards": [
+      {
+        "title": "Netlik",
+        "desc": "Basit açıklamalar ve akıcı bir süreç."
+      },
+      {
+        "title": "Hız",
+        "desc": "Hızlı yanıtlar ve düzenli takip."
+      },
+      {
+        "title": "Güven",
+        "desc": "Profesyonel ve şeffaf yaklaşım."
+      }
+    ],
+    "statsKicker": "İstatistikler",
+    "statsTitle": "Aktivite (örnek)",
+    "statsDesc": "Örnek grafik (örnek veri): aylık talep sayısı.",
+    "months": [
+      "Oca",
+      "Şub",
+      "Mar",
+      "Nis",
+      "May",
+      "Haz"
+    ],
+    "kpi": {
+      "totalTitle": "Toplam",
+      "totalDesc": "Dönem içindeki talepler",
+      "avgTitle": "Ortalama",
+      "avgDesc": "Aylık talepler",
+      "bestTitle": "Zirve",
+      "bestDesc": "En iyi ay"
+    }
+  },
+  "footer": {
+    "desc": "TEYSİR, şeffaflık, güvenilirlik ve saha takibini esas alan uluslararası bir insani yardım organizasyonudur.",
+    "contactTitle": "İletişim",
+    "phoneLabel": "Telefon",
+    "addressLabel": "Adres",
+    "address": "Denizköşkler Mahallesi, Koru Çıkmazı Sokak\nNo: 4, İç Kapı No: 1\nAvcılar / İstanbul – Türkiye",
+    "phones": [
+      "+90 552 605 69 15",
+      "+90 539 378 71 41"
+    ],
+    "socials": {
+      "whatsapp": "WhatsApp",
+      "email": "E-posta",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    },
+    "rights": "Tüm hakları saklıdır."
+  },
+  "lang": {
+    "label": "Dil",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية",
+    "tr": "Türkçe"
+  },
+  "carousel": {
+    "kicker": "Resmi site",
+    "contactBtn": "İletişime geç",
+    "servicesBtn": "Hizmetleri gör",
+    "prev": "Önceki slayt",
+    "next": "Sonraki slayt",
+    "goto": "{{index}}. slayta git",
+    "imageMissing": "Eksik görsel: {{src}}",
+    "empty": {
+      "kicker": "Taysir",
+      "title": "Ana Sayfa",
+      "desc": "Görselleri buraya ekleyin:"
+    }
+  },
+  "slides": {
+    "s1": {
+      "alt": "Taysir - görsel 1",
+      "title": "Taysir",
+      "subtitle": "Net, hızlı ve güvenilir destek."
+    },
+    "s2": {
+      "alt": "Taysir - görsel 2",
+      "title": "Uygun hizmetler",
+      "subtitle": "Gerçek ihtiyaçlara göre çözüm."
+    },
+    "s3": {
+      "alt": "Taysir - görsel 3",
+      "title": "Güven & kalite",
+      "subtitle": "Basit, modern ve etkili deneyim."
+    },
+    "s4": {
+      "alt": "Taysir - görsel 4",
+      "title": "Kişiye özel destek",
+      "subtitle": "Her duruma uygun takip."
+    },
+    "s5": {
+      "alt": "Taysir - görsel 5",
+      "title": "Verimlilik & huzur",
+      "subtitle": "Kalıcı, güvenilir çözümler."
+    }
+  },
+  "about": {
+    "hero": {
+      "kicker": "Hakkımızda",
+      "title": "TEYSİR kimdir?",
+      "desc": "TEYSİR, Afrika’da ihtiyaç sahiplerine yardım etmek isteyen bağışçılar ile uluslararası insani yardım derneklerini güvenli ve profesyonel şekilde buluşturan bir organizasyon şirketidir. Kurban (Qurban), su kuyusu inşası, gıda dağıtımı ve diğer yardım projeleri gibi insani programların sahada doğru şekilde uygulanması için süreçleri uçtan uca planlar, yönetir ve takip ederiz. Amacımız, her bağışın doğru kişiye, doğru zamanda ve en iyi koşullarda ulaşmasını sağlamaktır."
+    },
+    "identity": {
+      "mission": {
+        "kicker": "Misyon",
+        "title": "Güvenilir ve şeffaf hizmet",
+        "desc": "Bağışçılara ve derneklere güvenilir, şeffaf ve profesyonel hizmet sunmak."
+      },
+      "vision": {
+        "kicker": "Vizyon",
+        "title": "Güven köprüsü",
+        "desc": "Uluslararası insani yardım kuruluşları için en güvenilir köprü olmak ve tüm süreçleri uluslararası standartlara göre yönetmek."
+      }
+    },
+    "organization": {
+      "kicker": "Operasyon",
+      "title": "Bağıştan sahaya tam yönetim",
+      "desc": "Saha ekiplerimiz, mezbahalarımız, lojistik ağımız ve yerel ortaklarımız sayesinde her adımı profesyonel bir operasyon yaklaşımıyla yönetiyoruz.",
+      "highlights": [
+        "Saha ekipleri",
+        "Lojistik ağı",
+        "Yerel ortaklar"
+      ],
+      "highlightDesc": "Her adımda planlama, koordinasyon, takip ve izlenebilirlik."
+    },
+    "projects": {
+      "kicker": "Programlar",
+      "title": "İnsani yardım faaliyetlerimiz",
+      "defaultDesc": "Uçtan uca organizasyon, saha takibi ve şeffaflık.",
+      "items": [
+        {
+          "title": "Kurban (Qurban)",
+          "desc": ""
+        },
+        {
+          "title": "Su kuyusu yapımı",
+          "desc": ""
+        },
+        {
+          "title": "Gıda dağıtımı ve yardım kolileri",
+          "desc": ""
+        },
+        {
+          "title": "Yetimler ve ihtiyaç sahibi ailelere destek",
+          "desc": ""
+        }
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "İletişim",
+      "title": "İhtiyacınızı konuşalım",
+      "desc": "Formu doldurun, hızlıca dönüş yapalım."
+    },
+    "form": {
+      "sectionTitle": "Mesaj gönder",
+      "sending": "Gönderiliyor...",
+      "sendError": "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.",
+      "placeholders": {
+        "fullName": "Ad soyad",
+        "email": "E-posta",
+        "phoneOptional": "Telefon (opsiyonel)",
+        "message": "Mesajınız"
+      },
+      "submit": "Gönder",
+      "sent": "Mesaj gönderildi (mock) ✅",
+      "errors": {
+        "nameRequired": "İsim gerekli",
+        "emailInvalid": "Geçersiz e-posta",
+        "messageRequired": "Mesaj gerekli"
+      }
+    },
+    "info": {
+      "sectionTitle": "Bilgiler",
+      "phoneLabel": "Telefon",
+      "phoneValue": "+90 552 605 69 15\n+90 539 378 71 41",
+      "emailLabel": "E-posta",
+      "emailValue": "contact@taysir.fr",
+      "addressLabel": "Adres",
+      "addressValue": "DENİZKÖŞKLER MAH. KORU ÇIKMAZI SK.\nN° 4, İç Kapı No: 1\nAvcılar / İstanbul – Türkiye",
+      "hoursLabel": "Çalışma Saatleri",
+      "hoursValue": "Pzt–Cmt 09:00–18:00"
+    },
+    "quick": {
+      "title": "Hızlı iletişim",
+      "call": "Ara",
+      "whatsapp": "WhatsApp"
+    },
+    "map": {
+      "title": "Harita (placeholder)",
+      "desc": "İsterseniz buraya Google Maps iframe ekleyin."
+    }
+  },
+  "testimonials": {
+    "hero": {
+      "kicker": "Yorumlar",
+      "title": "Bize güveniyorlar",
+      "desc": "Müşteri yorumları (örnek) — gerçek yorumlarla değiştirin."
+    },
+    "section": {
+      "kicker": "Değerlendirmeler",
+      "title": "Müşterilerimiz ne diyor"
+    },
+    "starsLabel": "5 üzerinden {{value}}"
+  },
+  "testimonialsData": {
+    "t1": {
+      "role": "Müşteri",
+      "message": "Çok memnun kaldım: hızlı ekip, net açıklamalar, harika sonuç."
+    },
+    "t2": {
+      "role": "Girişimci",
+      "message": "Ciddi ve hızlı hizmet. Takip ve şeffaflığı beğendim."
+    },
+    "t3": {
+      "role": "Yönetici",
+      "message": "Akıcı ve profesyonel deneyim. Taysir’i öneririm."
+    }
+  },
+  "activitiesPage": {
+    "hero": {
+      "kicker": "Faaliyetlerimiz",
+      "title": "Sahadaki faaliyetlerimiz",
+      "desc": "İnsani yardım projelerini uçtan uca planlar, koordine eder ve şeffaflıkla takip ederiz."
+    },
+    "filters": {
+      "all": "Tümü",
+      "water": "Su (Kuyu)",
+      "qurban": "Kurban",
+      "meals": "Yemek",
+      "quran": "Kur’an",
+      "livestock": "Süt keçileri",
+      "mosques": "Camiler",
+      "other": "Diğer"
+    },
+    "chart": {
+      "kicker": "Genel Bakış",
+      "title": "Faaliyet dağılımı (örnek)",
+      "desc": "Faaliyet listesine dayalı örnek grafik."
+    },
+    "catalog": {
+      "kicker": "Katalog",
+      "title": "Faaliyetlerimiz",
+      "quoteBtn": "İletişim",
+      "detailsBtn": "Detaylar"
+    },
+    "back": "Hizmetlere geri dön",
+    "gallery": "Galeri",
+    "details": "Hizmet detayları",
+    "noDetails": "Daha fazla bilgi talep üzerine."
+  },
+  "activities": {
+    "a1": {
+      "title": "Kuyu sondajı organizasyonu",
+      "desc": "En acil ihtiyaçların olduğu Afrika bölgelerinde kuyu projelerini baştan sona yönetiyoruz.",
+      "bullets": [
+        "Bölgenin teknik analizi",
+        "Yerel ekiplerle saha çalışmaları",
+        "Kuyunun tamamlanması ve testler",
+        "Açılış ve teslim dokümantasyonu",
+        "Fotoğraf ve video raporları"
+      ]
+    },
+    "a2": {
+      "title": "Kurban (Qurban) organizasyonu",
+      "desc": "Afrika’da kurban bağışı yapmak isteyen dernekler için tam kapsamlı hizmet sunuyoruz.",
+      "bullets": [
+        "Hayvan seçimi ve temini",
+        "İslami usullere uygun kesim",
+        "Kesim anının kayıt altına alınması",
+        "Etin ihtiyaç sahiplerine dağıtımı",
+        "Nihai rapor ve görsel materyaller"
+      ]
+    },
+    "a3": {
+      "title": "Yemek dağıtımı organizasyonu",
+      "desc": "Günlük sıcak yemek dağıtımları veya toplu yemek organizasyonları gerçekleştiriyoruz.",
+      "bullets": [
+        "Menü planlaması",
+        "Yemek hazırlığı",
+        "Hedef bölgelerde dağıtım",
+        "Dernek adına saha yönetimi",
+        "Fotoğraf ve video raporları",
+        "Ramazan’da yoğun destek (iftar/sahur)"
+      ]
+    },
+    "a4": {
+      "title": "Kur’an-ı Kerim dağıtımı organizasyonu",
+      "desc": "Afrika’daki ihtiyaç sahibi topluluklar için derneklerle birlikte Kur’an dağıtım projeleri yürütüyoruz.",
+      "bullets": [
+        "Kur’an-ı Kerim nüshalarının temini",
+        "Dağıtım bölgelerinin belirlenmesi",
+        "Dağıtımların organizasyonu (medrese, cami, köy)",
+        "Yerel ekiplerle koordinasyon",
+        "Fotoğraf ve video ile raporlama"
+      ]
+    },
+    "a5": {
+      "title": "Süt keçisi dağıtım projesi",
+      "desc": "Afrika’da sürdürülebilir kalkınmaya katkı sağlayan önemli bir proje.",
+      "bullets": [
+        "Hak sahibi ailelerin belirlenmesi",
+        "Sağlıklı keçilerin temini",
+        "Ailelere teslim",
+        "Takip ve raporlama"
+      ]
+    },
+    "a6": {
+      "title": "Cami projeleri",
+      "desc": "Kırsal bölgelerde cami inşaat projelerini sahada yönetiyoruz.",
+      "bullets": [
+        "Arsa temini",
+        "Planlama ve işlerin denetlenmesi",
+        "Malzeme tedariki",
+        "Açılış organizasyonu",
+        "Derneklere detaylı raporlar"
+      ]
+    },
+    "a7": {
+      "title": "Diğer projeler",
+      "desc": "Derneklerin ihtiyaçlarına göre özel projeleri de uçtan uca koordine ediyoruz.",
+      "bullets": [
+        "Eğitime destek programları",
+        "Yetim ailelere yardım",
+        "Giyim dağıtımı",
+        "Sağlık projeleri",
+        "Acil yardım çalışmaları"
+      ]
+    }
+  }
+}

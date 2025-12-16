@@ -1,0 +1,366 @@
+{
+    "siteName": "taysir",
+    "header": {
+        "menu": "Menu",
+        "close": "Fermer",
+        "primaryNav": "Navigation principale",
+        "mobileNav": "Menu mobile"
+    },
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "testimonials": "Témoignages",
+        "contact": "Contact"
+    },
+    "home": {
+        "featuredDesc": "Découvrez quelques-unes de nos activités phares.",
+        "kicker": "Site officiel",
+        "whyTitle": "Pourquoi choisir Taysir ?",
+        "why": {
+            "clarity": "Clarté",
+            "speed": "Rapidité",
+            "trust": "Confiance"
+        },
+        "ctaTitle": "On démarre quand vous voulez.",
+        "ctaText": "Écrivez-nous et recevez une réponse rapidement.",
+        "contactBtn": "Nous contacter",
+        "servicesBtn": "Voir les services",
+        "detailsBtn": "Lire la suite",
+        "whyCards": [
+            {
+                "title": "Clarté",
+                "desc": "Des explications simples et un parcours fluide."
+            },
+            {
+                "title": "Rapidité",
+                "desc": "Des réponses rapides et un suivi régulier."
+            },
+            {
+                "title": "Confiance",
+                "desc": "Une approche professionnelle et transparente."
+            }
+        ],
+        "statsKicker": "Statistiques",
+        "statsTitle": "Activité (exemple)",
+        "statsDesc": "Exemple de graphique (données mock) : nombre de demandes par mois.",
+        "months": [
+            "Jan",
+            "Fév",
+            "Mar",
+            "Avr",
+            "Mai",
+            "Juin"
+        ],
+        "kpi": {
+            "totalTitle": "Total",
+            "totalDesc": "Demandes sur la période",
+            "avgTitle": "Moyenne",
+            "avgDesc": "Demandes par mois",
+            "bestTitle": "Pic",
+            "bestDesc": "Meilleur mois"
+        }
+    },
+    "footer": {
+        "desc": "TEYSİR est une société d’organisation humanitaire internationale, garantissant transparence, fiabilité et suivi terrain.",
+        "contactTitle": "Contact",
+        "phoneLabel": "Téléphone",
+        "addressLabel": "Adresse",
+        "address": "DENİZKÖŞKLER MAH. KORU ÇIKMAZI SK.\nN° 4, Porte Intérieure N° 1\nAvcılar / Istanbul – Turquie",
+        "phones": [
+            "+90 552 605 69 15",
+            "+90 539 378 71 41"
+        ],
+        "socials": {
+            "whatsapp": "WhatsApp",
+            "email": "E-mail",
+            "twitter": "Twitter",
+            "instagram": "Instagram",
+            "youtube": "YouTube"
+        },
+        "rights": "Tous droits réservés."
+    },
+    "contact": {
+        "quick": {
+            "title": "Contact rapide",
+            "call": "Appeler",
+            "whatsapp": "WhatsApp"
+        },
+        "info": {
+            "sectionTitle": "Informations",
+            "phoneLabel": "Téléphone",
+            "phoneValue": "+90 552 605 69 15\n+90 539 378 71 41",
+            "emailLabel": "Email",
+            "emailValue": "contact@taysir.fr",
+            "addressLabel": "Adresse",
+            "addressValue": "DENİZKÖŞKLER MAH. KORU ÇIKMAZI SK.\nN° 4, Porte Intérieure N° 1\nAvcılar / Istanbul – Turquie",
+            "hoursLabel": "Horaires",
+            "hoursValue": "Lun–Sam 09h–18h"
+        },
+        "hero": {
+            "kicker": "Contact",
+            "title": "Parlons de votre besoin",
+            "desc": "Remplissez le formulaire et nous vous recontactons rapidement."
+        },
+        "form": {
+            "sectionTitle": "Envoyer un message",
+            "submit": "Envoyer",
+            "sending": "Envoi...",
+            "sendError": "Erreur lors de l’envoi. Réessayez.",
+            "sent": "Message envoyé avec succès ✅",
+            "placeholders": {
+                "fullName": "Nom complet",
+                "email": "Email",
+                "phoneOptional": "Téléphone (optionnel)",
+                "message": "Votre message"
+            },
+            "errors": {
+                "nameRequired": "Nom requis",
+                "emailInvalid": "Email invalide",
+                "messageRequired": "Message requis"
+            }
+        },
+        "map": {
+            "title": "Localisation",
+            "desc": "Carte disponible sur demande."
+        }
+    },
+    "activitiesPage": {
+        "back": "Retour aux services",
+        "gallery": "Galerie",
+        "details": "Détails du service",
+        "noDetails": "Plus d’informations sur demande.",
+        "hero": {
+            "kicker": "Nos Activités",
+            "title": "Nos activités sur le terrain",
+            "desc": "Nous planifions, coordonnons et suivons les projets humanitaires de bout en bout, avec transparence et professionnalisme."
+        },
+        "filters": {
+            "all": "Tous",
+            "water": "Eau (Puits)",
+            "qurban": "Qurban",
+            "meals": "Repas",
+            "quran": "Coran",
+            "livestock": "Chèvres laitières",
+            "mosques": "Mosquées",
+            "other": "Autres"
+        },
+        "chart": {
+            "kicker": "Vue d’ensemble",
+            "title": "Répartition des activités (exemple)",
+            "desc": "Graphique illustratif basé sur la liste des activités."
+        },
+        "catalog": {
+            "kicker": "Catalogue",
+            "title": "Liste de nos activités",
+            "detailsBtn": "Détails",
+            "quoteBtn": "Nous contacter"
+        }
+    },
+    "lang": {
+        "label": "Langue",
+        "fr": "Français",
+        "en": "English",
+        "ar": "العربية",
+        "tr": "Türkçe"
+    },
+    "carousel": {
+        "kicker": "Site officiel",
+        "contactBtn": "Nous contacter",
+        "servicesBtn": "Voir les services",
+        "prev": "Slide précédent",
+        "next": "Slide suivant",
+        "goto": "Aller au slide {{index}}",
+        "imageMissing": "Image manquante : {{src}}",
+        "empty": {
+            "kicker": "Taysir",
+            "title": "Accueil",
+            "desc": "Ajoute des images dans"
+        }
+    },
+    "slides": {
+        "s1": {
+            "alt": "Taysir - image 1",
+            "title": "Taysir",
+            "subtitle": "Un accompagnement clair, rapide et fiable."
+        },
+        "s2": {
+            "alt": "Taysir - image 2",
+            "title": "Des services adaptés",
+            "subtitle": "Une solution pensée pour vos besoins réels."
+        },
+        "s3": {
+            "alt": "Taysir - image 3",
+            "title": "Confiance & qualité",
+            "subtitle": "Une expérience simple, moderne et efficace."
+        },
+        "s4": {
+            "alt": "Taysir - image 4",
+            "title": "Accompagnement personnalisé",
+            "subtitle": "Un suivi adapté à chaque situation."
+        },
+        "s5": {
+            "alt": "Taysir - image 5",
+            "title": "Efficacité & sérénité",
+            "subtitle": "Des solutions fiables, pensées pour durer."
+        }
+    },
+    "about": {
+        "hero": {
+            "kicker": "À propos",
+            "title": "Qui est TEYSİR ?",
+            "desc": "TEYSİR est une société d’organisation qui met en relation, de manière sûre et professionnelle, des associations menant des actions humanitaires internationales avec des donateurs souhaitant venir en aide aux populations dans le besoin en Afrique. Nous planifions, gérons et suivons de bout en bout l’ensemble des processus afin d’assurer la mise en œuvre correcte sur le terrain des programmes humanitaires tels que les sacrifices (Qurban), la construction de puits d’eau, la distribution alimentaire et d’autres projets d’aide. Notre objectif est de garantir que chaque don parvienne à la bonne personne, au bon moment et dans les meilleures conditions possibles."
+        },
+        "identity": {
+            "mission": {
+                "kicker": "Mission",
+                "title": "Un service fiable et transparent",
+                "desc": "Garantir aux donateurs et aux associations un service fiable, transparent et professionnel."
+            },
+            "vision": {
+                "kicker": "Vision",
+                "title": "Un pont de confiance",
+                "desc": "Devenir le pont le plus fiable des organisations humanitaires internationales et gérer l’ensemble des processus selon les standards internationaux."
+            }
+        },
+        "organization": {
+            "kicker": "Organisation",
+            "title": "Une gestion complète, du don au terrain",
+            "desc": "Grâce à nos équipes sur le terrain, nos abattoirs, notre réseau logistique et nos partenaires locaux, nous gérons chaque étape selon une approche organisationnelle professionnelle.",
+            "highlights": [
+                "Équipes sur le terrain",
+                "Réseau logistique",
+                "Partenaires locaux"
+            ],
+            "highlightDesc": "Planification, coordination, suivi et traçabilité à chaque étape."
+        },
+        "projects": {
+            "kicker": "Programmes",
+            "title": "Nos actions humanitaires",
+            "defaultDesc": "Organisation, suivi terrain et transparence de bout en bout.",
+            "items": [
+                {
+                    "title": "Les sacrifices (Qurban)",
+                    "desc": ""
+                },
+                {
+                    "title": "La construction de puits d’eau",
+                    "desc": ""
+                },
+                {
+                    "title": "La distribution de nourriture et de colis alimentaires",
+                    "desc": ""
+                },
+                {
+                    "title": "L’aide aux orphelins et aux familles dans le besoin",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    "testimonials": {
+        "hero": {
+            "kicker": "Témoignages",
+            "title": "Ils nous font confiance",
+            "desc": "Avis clients (exemples) — remplace par tes vrais témoignages."
+        },
+        "section": {
+            "kicker": "Avis",
+            "title": "Ce que disent nos clients"
+        },
+        "starsLabel": "{{value}} sur 5"
+    },
+    "testimonialsData": {
+        "t1": {
+            "role": "Cliente",
+            "message": "Très satisfaite : équipe réactive, explications claires, résultat au rendez-vous."
+        },
+        "t2": {
+            "role": "Entrepreneur",
+            "message": "Service sérieux et rapide. J’ai apprécié le suivi et la transparence."
+        },
+        "t3": {
+            "role": "Responsable",
+            "message": "Expérience fluide et professionnelle. Je recommande Taysir."
+        }
+    },
+    "activities": {
+        "a1": {
+            "title": "Organisation de Forages de Puits",
+            "desc": "Nous gérons de A à Z les processus de construction de puits d’eau dans les régions d’Afrique où les besoins sont les plus urgents.",
+            "bullets": [
+                "Analyse technique de la zone",
+                "Réalisation des travaux avec des équipes locales",
+                "Finalisation et tests du puits",
+                "Préparation des documents d’inauguration et de remise",
+                "Rapports photo et vidéo"
+            ]
+        },
+        "a2": {
+            "title": "Organisation de Sacrifice (Qurban)",
+            "desc": "Nous offrons un service complet aux associations souhaitant réaliser des dons de sacrifice en Afrique.",
+            "bullets": [
+                "Sélection et fourniture des animaux",
+                "Abattage conforme aux règles islamiques",
+                "Enregistrement du moment du sacrifice",
+                "Distribution de la viande aux bénéficiaires",
+                "Rapport final du projet et supports visuels"
+            ]
+        },
+        "a3": {
+            "title": "Organisation de Distribution de Repas",
+            "desc": "Nous organisons des distributions de repas chauds quotidiens ou des événements de restauration collective.",
+            "bullets": [
+                "Planification des menus",
+                "Préparation des repas",
+                "Distribution dans les zones ciblées",
+                "Gestion du terrain au nom de l’association",
+                "Rapports photo et vidéo",
+                "Soutien intensif pendant Ramadan (iftar et sahur)"
+            ]
+        },
+        "a4": {
+            "title": "Organisation de Distribution du Saint Coran",
+            "desc": "Nous menons des projets de distribution du Saint Coran destinés aux communautés dans le besoin en Afrique, en collaboration avec des associations, selon une approche organisationnelle professionnelle.",
+            "bullets": [
+                "Fourniture des exemplaires du Saint Coran",
+                "Identification des zones de distribution",
+                "Organisation des distributions dans les médersas, les mosquées et les villages",
+                "Coordination avec les équipes locales",
+                "Reporting du projet par photos et vidéos"
+            ]
+        },
+        "a5": {
+            "title": "Projet de Distribution de Chèvres Laitières",
+            "desc": "Il s’agit d’un projet clé contribuant au développement durable en Afrique.",
+            "bullets": [
+                "Identification des familles bénéficiaires",
+                "Fourniture de chèvres en bonne santé",
+                "Remise aux familles",
+                "Suivi et reporting"
+            ]
+        },
+        "a6": {
+            "title": "Projets de Mosquées",
+            "desc": "Nous assurons la gestion sur le terrain des projets de construction de mosquées dans les zones rurales.",
+            "bullets": [
+                "Acquisition du terrain",
+                "Planification et supervision des travaux",
+                "Approvisionnement en matériaux",
+                "Organisation de l’inauguration",
+                "Présentation de rapports détaillés aux associations"
+            ]
+        },
+        "a7": {
+            "title": "Autres Projets",
+            "desc": "Nous coordonnons également des projets spécifiques selon les besoins des associations. Chaque projet est planifié et exécuté sur mesure, conformément aux demandes de l’association.",
+            "bullets": [
+                "Programmes de soutien à l’éducation",
+                "Aide aux familles d’orphelins",
+                "Distribution de vêtements",
+                "Projets de santé",
+                "Actions d’aide d’urgence"
+            ]
+        }
+    }
+}

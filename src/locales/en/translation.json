@@ -1,0 +1,356 @@
+{
+  "siteName": "taysir",
+  "header": {
+    "menu": "Menu",
+    "close": "Close",
+    "primaryNav": "Primary navigation",
+    "mobileNav": "Mobile menu"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "home": {
+    "kicker": "Official website",
+    "whyTitle": "Why choose Taysir?",
+    "why": {
+      "clarity": "Clarity",
+      "speed": "Speed",
+      "trust": "Trust"
+    },
+    "ctaTitle": "We can start whenever you want.",
+    "ctaText": "Write to us and get a quick response.",
+    "contactBtn": "Contact us",
+    "servicesBtn": "View services",
+    "detailsBtn": "Read more",
+    "whyCards": [
+      {
+        "title": "Clarity",
+        "desc": "Simple explanations and a smooth journey."
+      },
+      {
+        "title": "Speed",
+        "desc": "Fast responses and regular follow-up."
+      },
+      {
+        "title": "Trust",
+        "desc": "A professional and transparent approach."
+      }
+    ],
+    "statsKicker": "Statistics",
+    "statsTitle": "Activity (example)",
+    "statsDesc": "Example chart (mock data): number of requests per month.",
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun"
+    ]
+  },
+  "footer": {
+    "desc": "TEYSİR is an international humanitarian organization ensuring transparency, reliability, and full field monitoring.",
+    "contactTitle": "Contact",
+    "phoneLabel": "Phone",
+    "addressLabel": "Address",
+    "address": "Denizköşkler Neighborhood, Koru Çıkmazı Street\nNo: 4, Inner Door No: 1\nAvcılar / Istanbul – Türkiye",
+    "phones": [
+      "+90 552 605 69 15",
+      "+90 539 378 71 41"
+    ],
+    "socials": {
+      "whatsapp": "WhatsApp",
+      "email": "E-mail",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    },
+    "rights": "All rights reserved."
+  },
+  "lang": {
+    "label": "Language",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية",
+    "tr": "Türkçe"
+  },
+  "carousel": {
+    "kicker": "Official website",
+    "contactBtn": "Contact us",
+    "servicesBtn": "View services",
+    "prev": "Previous slide",
+    "next": "Next slide",
+    "goto": "Go to slide {{index}}",
+    "imageMissing": "Missing image: {{src}}",
+    "empty": {
+      "kicker": "Taysir",
+      "title": "Home",
+      "desc": "Add images in"
+    }
+  },
+  "slides": {
+    "s1": {
+      "alt": "Taysir - image 1",
+      "title": "Taysir",
+      "subtitle": "Clear, fast and reliable support."
+    },
+    "s2": {
+      "alt": "Taysir - image 2",
+      "title": "Tailored services",
+      "subtitle": "A solution built for real needs."
+    },
+    "s3": {
+      "alt": "Taysir - image 3",
+      "title": "Trust & quality",
+      "subtitle": "A simple, modern and effective experience."
+    },
+    "s4": {
+      "alt": "Taysir - image 4",
+      "title": "Personalized support",
+      "subtitle": "Follow-up adapted to every situation."
+    },
+    "s5": {
+      "alt": "Taysir - image 5",
+      "title": "Efficiency & peace of mind",
+      "subtitle": "Reliable solutions built to last."
+    }
+  },
+  "about": {
+    "hero": {
+      "kicker": "About",
+      "title": "Who is TEYSİR?",
+      "desc": "TEYSİR is an organizing company that connects, in a safe and professional way, international humanitarian associations with donors who wish to help people in need in Africa. We plan, manage, and monitor end-to-end processes to ensure proper field implementation of humanitarian programs such as Qurban (sacrifices), water well construction, food distribution, and other aid projects. Our goal is to ensure every donation reaches the right person, at the right time, under the best possible conditions."
+    },
+    "identity": {
+      "mission": {
+        "kicker": "Mission",
+        "title": "Reliable and transparent service",
+        "desc": "Provide donors and associations with a reliable, transparent, and professional service."
+      },
+      "vision": {
+        "kicker": "Vision",
+        "title": "A bridge of trust",
+        "desc": "Become the most trusted bridge for international humanitarian organizations and manage all processes according to international standards."
+      }
+    },
+    "organization": {
+      "kicker": "Operations",
+      "title": "Full management, from donation to field",
+      "desc": "With our field teams, slaughterhouses, logistics network, and local partners, we manage every step using a professional operational approach.",
+      "highlights": [
+        "Field teams",
+        "Logistics network",
+        "Local partners"
+      ],
+      "highlightDesc": "Planning, coordination, monitoring, and traceability at every step."
+    },
+    "projects": {
+      "kicker": "Programs",
+      "title": "Our humanitarian actions",
+      "defaultDesc": "End-to-end organization, field follow-up, and transparency.",
+      "items": [
+        {
+          "title": "Qurban (sacrifices)",
+          "desc": ""
+        },
+        {
+          "title": "Water well construction",
+          "desc": ""
+        },
+        {
+          "title": "Food distribution and aid packages",
+          "desc": ""
+        },
+        {
+          "title": "Support for orphans and families in need",
+          "desc": ""
+        }
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "Contact",
+      "title": "Let’s talk about your needs",
+      "desc": "Fill in the form and we’ll get back to you quickly."
+    },
+    "form": {
+      "sending": "Sending...",
+      "sendError": "An error occurred while sending the message. Please try again.",
+      "sectionTitle": "Send a message",
+      "placeholders": {
+        "fullName": "Full name",
+        "email": "Email",
+        "phoneOptional": "Phone (optional)",
+        "message": "Your message"
+      },
+      "submit": "Send",
+      "sent": "Message sent (mock) ✅",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailInvalid": "Invalid email",
+        "messageRequired": "Message is required"
+      },
+      "quick": {
+        "title": "Quick contact",
+        "call": "Call",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "info": {
+      "sectionTitle": "Information",
+      "phoneLabel": "Phone",
+      "phoneValue": "+90 552 605 69 15\n+90 539 378 71 41",
+      "emailLabel": "Email",
+      "emailValue": "contact@taysir.fr",
+      "addressLabel": "Address",
+      "addressValue": "Denizköşkler Neighborhood, Koru Çıkmazı Street\nNo: 4, Inner Door No: 1\nAvcılar / Istanbul – Türkiye",
+      "hoursLabel": "Hours",
+      "hoursValue": "Mon–Sat 09:00–18:00"
+    },
+    "map": {
+      "title": "Map (placeholder)",
+      "desc": "Add a Google Maps iframe here if you want."
+    }
+  },
+  "testimonials": {
+    "hero": {
+      "kicker": "Testimonials",
+      "title": "They trust us",
+      "desc": "Customer reviews (examples) — replace with real testimonials."
+    },
+    "section": {
+      "kicker": "Reviews",
+      "title": "What our clients say"
+    },
+    "starsLabel": "{{value}} out of 5"
+  },
+  "testimonialsData": {
+    "t1": {
+      "role": "Client",
+      "message": "Very satisfied: responsive team, clear explanations, great results."
+    },
+    "t2": {
+      "role": "Entrepreneur",
+      "message": "Serious and fast service. I appreciated the follow-up and transparency."
+    },
+    "t3": {
+      "role": "Manager",
+      "message": "Smooth and professional experience. I recommend Taysir."
+    }
+  },
+  "activitiesPage": {
+    "hero": {
+      "kicker": "Our Activities",
+      "title": "Our field activities",
+      "desc": "We plan, coordinate, and monitor humanitarian projects end-to-end with transparency and professionalism."
+    },
+    "filters": {
+      "all": "All",
+      "water": "Water (Wells)",
+      "qurban": "Qurban",
+      "meals": "Meals",
+      "quran": "Qur’an",
+      "livestock": "Dairy goats",
+      "mosques": "Mosques",
+      "other": "Other"
+    },
+    "chart": {
+      "kicker": "Overview",
+      "title": "Activities distribution (example)",
+      "desc": "Illustrative chart based on the list of activities."
+    },
+    "catalog": {
+      "kicker": "Catalog",
+      "title": "Our activities list",
+      "quoteBtn": "Contact us"
+    },
+    "back": "Back to services",
+    "gallery": "Gallery",
+    "details": "Service details",
+    "noDetails": "More information upon request."
+  },
+  "activities": {
+    "a1": {
+      "title": "Water well drilling organization",
+      "desc": "We manage the entire water well construction process in African regions where needs are most urgent.",
+      "bullets": [
+        "Technical assessment of the area",
+        "Field work with local teams",
+        "Well completion and testing",
+        "Inauguration and handover documentation",
+        "Photo and video reports"
+      ]
+    },
+    "a2": {
+      "title": "Qurban (sacrifice) organization",
+      "desc": "We provide a complete service for associations wishing to carry out Qurban donations in Africa.",
+      "bullets": [
+        "Animal selection and procurement",
+        "Slaughter in accordance with Islamic rules",
+        "Recording the time of sacrifice",
+        "Meat distribution to beneficiaries",
+        "Final report and visual materials"
+      ]
+    },
+    "a3": {
+      "title": "Meal distribution organization",
+      "desc": "We organize daily hot meal distributions or collective catering events.",
+      "bullets": [
+        "Menu planning",
+        "Meal preparation",
+        "Distribution in targeted areas",
+        "On-site management on behalf of the association",
+        "Photo and video reports",
+        "Extra support during Ramadan (iftar/suhoor)"
+      ]
+    },
+    "a4": {
+      "title": "Holy Qur’an distribution organization",
+      "desc": "We run Holy Qur’an distribution projects for communities in need in Africa, in collaboration with associations, with a professional operational approach.",
+      "bullets": [
+        "Providing copies of the Holy Qur’an",
+        "Identifying distribution areas",
+        "Organizing distributions (madrasas, mosques, villages)",
+        "Coordination with local teams",
+        "Photo and video reporting"
+      ]
+    },
+    "a5": {
+      "title": "Dairy goat distribution project",
+      "desc": "A key project contributing to sustainable development in Africa.",
+      "bullets": [
+        "Identifying beneficiary families",
+        "Providing healthy goats",
+        "Handover to families",
+        "Follow-up and reporting"
+      ]
+    },
+    "a6": {
+      "title": "Mosque projects",
+      "desc": "We manage on-the-ground mosque construction projects in rural areas.",
+      "bullets": [
+        "Land acquisition",
+        "Planning and work supervision",
+        "Material procurement",
+        "Inauguration organization",
+        "Detailed reports to associations"
+      ]
+    },
+    "a7": {
+      "title": "Other projects",
+      "desc": "We also coordinate specific projects according to associations’ needs. Each project is planned and delivered tailor-made.",
+      "bullets": [
+        "Education support programs",
+        "Support for orphan families",
+        "Clothing distribution",
+        "Health projects",
+        "Emergency relief actions"
+      ]
+    }
+  }
+}

@@ -1,0 +1,310 @@
+:root {
+  --navy: #0B1F3B;
+  --blue: #1E4E8C;
+  --headerBg: #102B52;
+  /* bleu légèrement foncé */
+  --footerBg: #102B52;
+  --bg: #F7F9FC;
+  --text: #0d1b2a;
+  --muted: #5b6777;
+  --card: #ffffff;
+  --border: #e6ebf2;
+
+  --radius: 18px;
+  --shadow: 0 10px 30px rgba(11, 31, 59, .10);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin: 0 auto;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding: 24px 0 56px;
+  flex: 1;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: var(--navy);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .12s ease, opacity .12s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: .95;
+}
+
+.btn.secondary {
+  background: white;
+  color: var(--navy);
+  border-color: var(--border);
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 900px) {
+  .grid.cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid.cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--headerBg);
+  border-bottom: 1px solid rgba(255, 255, 255, .12);
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  gap: 14px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  letter-spacing: .2px;
+  color: white;
+}
+
+.brand img {
+  display: block;
+}
+
+
+.brandMark {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--navy), var(--blue));
+}
+
+.nav {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.nav a {
+  padding: 8px 10px;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, .85);
+  font-weight: 600;
+}
+
+.nav a.active {
+  background: rgba(255, 255, 255, .14);
+  color: white;
+}
+
+.mobileToggle {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .nav {
+    display: none;
+  }
+
+  .mobileToggle {
+    display: inline-flex;
+  }
+
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 0 18px;
+  }
+
+  .mobileMenu a {
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: white;
+    font-weight: 700;
+    color: var(--navy);
+  }
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, .12);
+  background: var(--footerBg);
+  color: white;
+}
+
+.footerInner {
+  padding: 24px 0;
+  display: grid;
+  gap: 14px;
+}
+
+@media (min-width: 900px) {
+  .footerInner {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}
+
+.footer a {
+  color: rgba(255, 255, 255, .90);
+}
+
+.footerInner .p,
+.footerInner span {
+  color: rgba(255, 255, 255, .80) !important;
+}
+
+.h1 {
+  font-size: clamp(26px, 3vw, 40px);
+  line-height: 1.1;
+  margin: 0;
+  color: var(--navy);
+}
+
+.p {
+  color: var(--muted);
+  margin: 10px 0 0;
+  line-height: 1.55;
+}
+
+.sectionTitle {
+  margin: 0 0 12px;
+  color: var(--navy);
+}
+
+.kicker {
+  color: var(--blue);
+  font-weight: 800;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* Form */
+.input,
+.textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px 12px;
+  background: white;
+  font: inherit;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(11, 31, 59, .08);
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.mobileToggle.btn.secondary {
+  background: transparent;
+  border-color: rgba(255, 255, 255, .25);
+  color: white;
+}
+
+.langSelect {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.10);
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+
+  /* supprime le style natif */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Hover / focus */
+.langSelect:hover,
+.langSelect:focus {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+/* OPTIONS (le vrai bug est ici) */
+.langSelect option {
+  background-color: #0b1f3b;
+  /* même bleu que le header */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Option sélectionnée */
+.langSelect option:checked {
+  background-color: #142f55;
+  color: #ffffff;
+}
